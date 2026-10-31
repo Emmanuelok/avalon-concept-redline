@@ -5,3 +5,6 @@
 #motion-toggle{font-size:16px!important}#result-count{font-size:18px}
 
 @media(max-width:700px){.page-head h1.configuration-title{font-size:clamp(38px,11vw,60px)}}
+
+/* Pausing decorative motion must keep newly routed content visible. */
+.motion-paused .view-enter{animation:none!important;opacity:1}
